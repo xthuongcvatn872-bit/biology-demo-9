@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #e8f5e9, #f1f8e9);
+  color: #2c3e50;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.container {
+  max-width: 950px;
+  width: 100%;
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 30px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+
+header h1 {
+  font-size: 26px;
+  color: #1b5e20;
+  margin-bottom: 6px;
+}
+
+header p {
+  color: #66bb6a;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
+
+.counter {
+  margin: 15px 0 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #2e7d32;
+  background: #e8f5e9;
+  display: inline-block;
+  padding: 6px 18px;
+  border-radius: 20px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.slide-box {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.slide-box img {
+  width: 100%;
+  max-width: 780px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e0e0e0;
+}
+
+.media-box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.media-box h2 {
+  font-size: 18px;
+  color: #2e7d32;
+}
+
+audio {
+  width: 100%;
+  max-width: 480px;
+  outline: none;
+}
+
+video {
+  width: 100%;
+  max-width: 420px;
+  max-height: 280px;
+  object-fit: contain;
+  background-color: #000;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.navigation {
+  margin-top: 15px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.navigation button {
+  background-color: #2e7d32;
+  color: #ffffff;
+  border: none;
+  padding: 10px 24px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: 0 4px 10px rgba(46, 125, 50, 0.2);
+}
+
+.navigation button:hover {
+  background-color: #1b5e20;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(46, 125, 50, 0.3);
+}
+
+footer {
+  margin-top: 25px;
+  font-size: 13px;
+  color: #888;
+  border-top: 1px solid #eee;
+  padding-top: 15px;
+}
